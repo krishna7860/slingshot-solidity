@@ -21,4 +21,5 @@ contract Sender is Helpers {
         payable(msg.sender).transfer(balance());
     }
 }
+// function input:  [[1, "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db"]]
 
